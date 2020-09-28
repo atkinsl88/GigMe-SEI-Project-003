@@ -1,0 +1,113 @@
+/* Map */
+$primaryRed: #f73434;
+$primaryGray: #a2abb3;
+$secondaryGray: #d6dde4;
+$primaryNavy: #093052;
+$newGray: #f7f9fa;
+
+.genres {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.genres > div {
+  margin-right: 15px;
+  margin-bottom: 20px;
+  height: 55px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 6px;
+  color: #081C6A;
+  font-weight: 700;
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.mapArea {
+  background-color: $newGray;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  padding:40px;
+}
+
+
+.map {
+  background-color: grey;
+  margin-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.mapSearch {
+    padding:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    max-width:1500px;
+    background-color: $newGray;
+  }
+  
+  .mapSearchHeader{
+    display:flex;
+    justify-content: center;
+    margin:15px;
+    background-color: $newGray;
+      h1 {
+        color:black;
+      }
+  }
+  
+  .map-thumbs{
+  max-width: 200px;
+  padding: 10px;
+  background-color: $newGray;
+    img {
+      max-height: 100px;
+    }
+  }
+
+  
+// calendar 
+
+.calendarArea {
+  padding: 40px;
+  background-color: $newGray;
+  box-shadow: 0 10px 6px -6px #777;
+}
+
+.fc-event-title{
+  color: $primaryNavy;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.fc-col-header-cell-cushion{
+  color: $primaryNavy;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.fc-daygrid-day-number{
+  color: $primaryNavy;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.fc-daygrid-day-frame {
+  background-color: white;
+}
+
+.fc-scrollgrid-sync-inner{
+  background-color: white;
+}

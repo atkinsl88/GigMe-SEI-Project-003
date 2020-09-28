@@ -1,0 +1,8 @@
+{
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#f40db2",
+    "titleBar.activeBackground": "#f40db2",
+    "titleBar.inactiveBackground": "#f40db2",
+  },
+  "window.title": "FRONTEND"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "gigme",
+  "version": "1.0.0",
+  "description": "Repo for SEI Group Project 3  USE THE CHEAT SHEET HERES MY CHANGE Another change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "seed": "node db/seeds.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashgetchi/GigMe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashgetchi/GigMe/issues"
+  },
+  "homepage": "https://github.com/ashgetchi/GigMe#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mapbox-gl": "^1.12.0",
+    "mongoose": "^5.10.0",
+    "mongoose-unique-validator": "^2.0.3",
+    "nodemon": "^2.0.4",
+    "react-mapbox-gl": "^4.8.6"
+  }
+}

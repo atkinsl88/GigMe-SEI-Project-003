@@ -1,0 +1,43 @@
+$primaryRed: #f73434;
+$primaryGray: #a2abb3;
+$secondaryGray: #d6dde4;
+$primaryNavy: #093052;
+$newGray: #f7f9fa;
+
+/* Navigation */
+
+.navbar {
+  background-color: $primaryNavy;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navbar-item {
+  color: #e1e3eb;
+}
+
+a.navbar-item:hover {
+  color: $primaryGray;
+}
+
+.navbar-menu {
+  padding: 0px;
+}
+
+.footer-main {
+  background-color: $primaryNavy;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  text-align: center;
+    .footer-text {
+      color: $newGray;
+      margin-top: 10px;
+    }
+    h1 {
+      margin-top: 30px;
+    }
+}

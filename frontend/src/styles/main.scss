@@ -1,0 +1,237 @@
+@import '~bulma/bulma.sass';
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700&display=swap);
+@import './footerNav.scss';
+@import './hero.scss';
+@import './mapCalendar.scss';
+@import './forms.scss';
+@import './gigsAll.scss';
+$primaryRed: #f73434;
+$primaryGray: #a2abb3;
+$secondaryGray: #d6dde4;
+$primaryNavy: #093052;
+$newGray: #f7f9fa;
+
+/* Misc */
+* {
+  margin: 0px;
+  font-family: 'Manrope', sans-serif;
+  // background-color: $newGray;
+}
+
+/* Fonts */
+h1 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+h2 {
+  color: $primaryNavy;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+h3 {
+  color: $primaryNavy;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+h4 {
+  color: $primaryNavy;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+h5 {
+  color: $primaryNavy;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+  margin-right: 200px;
+}
+
+h6 {
+  color: $primaryNavy;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+/* Featured Events */
+.featured-home {
+  background-color: $newGray;
+  padding-bottom: 40px;
+}
+
+.home-title {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+}
+
+.three-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  background-color: $newGray;
+}
+
+.three-col-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  flex: 1 1 400px;
+}
+
+.three-col-content img {
+  height: 400px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 900px) {
+  .three-col-content {
+    margin-bottom: 30px;
+  }
+}
+
+.button {
+  color: $primaryNavy;
+  background-color: $secondaryGray;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 10px;
+}
+
+.button2 {
+  font-family: 'Manrope', sans-serif;
+  color: $primaryNavy;
+  background-color: $secondaryGray;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 10px;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: calc(0.5em - 1px);
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: calc(0.5em - 1px);
+  text-align: center;
+  white-space: nowrap;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  display: inline-flex;
+  line-height: 1.5;
+}
+
+/* Links */
+.links-home {
+  background-color: $newGray;
+  padding-bottom: 40px;
+}
+
+.links-boxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.links-boxes-lft {
+  height: 170px;
+  max-width: 600px;
+  background-color: $primaryRed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 400px;
+  margin-left: 40px;
+  margin-right: 10px;
+  h2 {
+    color: #FFE065;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .links-boxes-lft {
+    margin-right: 40px;
+    margin-bottom: 20px;
+  }
+  .links-boxes-rgt {
+    margin-left: 40px;
+  }
+}
+
+// The below is for the map component - added by Aishath
+.mapLabels {
+  background-color: $primaryRed;
+  font-size: 12px;
+  font-family: 'Manrope', sans-serif;
+  padding: 2px;
+  color: $newGray;
+}
+
+// extra
+hr {
+  background-color: $newGray;
+}
+
+// Animation
+.container-animation {
+  position: relative;
+}
+
+.image-animation {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: $primaryNavy;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container-animation:hover .overlay {
+  bottom: 0;
+  height: 100%;
+  opacity: 0.8;
+  font-size: 30px;
+}
+
+.text-ani {
+  white-space: nowrap; 
+  color: $primaryRed;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}

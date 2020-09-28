@@ -1,0 +1,134 @@
+$primaryRed: #f73434;
+$primaryGray: #a2abb3;
+$secondaryGray: #d6dde4;
+$primaryNavy: #093052;
+$newGray: #f7f9fa;
+
+.eventComments{
+  background-color: $secondaryGray;
+  margin: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  max-width: 800px;
+  min-width: 300px;
+}
+  
+.indivComment {
+  font-size: 15px;
+  color: $primaryNavy;
+  font-weight: normal;
+}
+
+.gigCommentSection {
+  display:flex;
+  // align-items: center;
+  justify-content: left;
+  background-color: $newGray;
+  padding-left: 50px;
+}
+
+.commentEventForm {
+  align-self: center;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 1200px;
+  background-color: $newGray;
+  padding-left: 50px;
+}
+
+.commentEventForm textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.gigLike {
+  font-family: 'Manrope', sans-serif;
+  font-size: 14px;
+  margin: 10px;
+  color: $newGray;
+  background-color: $primaryRed;
+  padding-left: 8px;
+  padding-right: 10px;
+  margin-left: 55px;
+  border-radius: 5px;
+  border: none;
+}
+
+// gigs index
+/* Gigs */
+
+.gig-card {
+  height: auto;
+  margin: 30px;
+  width: 350px;
+  transition: all 0.5s ease;
+}
+
+.gig-card:hover {
+  transform: scale(1.1);
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  padding: 17px;
+}
+
+.gig-title {
+  height: auto;
+  margin: 10px;
+}
+
+.gig-content {
+  height: auto;
+  margin: 10px;
+}
+
+.gig-card h4 {
+  color: #081C6A;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.search-buttons{
+  font-family: 'Manrope', sans-serif;
+  margin: 20px;
+  padding: 5px;
+  background-color: $primaryNavy;
+  color: $newGray;
+  border-radius: 5px;
+  text-decoration: none;
+  border-width: 0px;
+  min-width: 70px;
+  color: $newGray;
+  box-shadow: 2px 2px $secondaryGray;
+  transition: all 0.5s ease;
+}
+
+.search-buttons:hover {
+  transform: scale(1.1);
+}
+
+.searchGenres {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: $newGray;
+}
+
+.createdEventprofile{
+  display:flex;
+  justify-content: center;
+}
+
+.randomUser{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

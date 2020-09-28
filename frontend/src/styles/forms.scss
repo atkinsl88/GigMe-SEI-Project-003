@@ -1,0 +1,150 @@
+/* Form */
+$primaryRed: #f73434;
+$primaryGray: #a2abb3;
+$secondaryGray: #d6dde4;
+$primaryNavy: #093052;
+$newGray: #f7f9fa;
+
+.form-area {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FBFAF4;
+  height: 95vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+  margin-left: 50px;
+}
+
+/* Register */
+
+.register-form-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f7f9fa;
+}
+
+.register-form {
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+/* New */
+
+.new-form-area {
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f7f9fa;
+}
+
+.new-form {
+  width: 500px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
+}
+
+
+.form-image {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.login {
+  height: 100vh;
+  background-color: #FBFAF4;
+}
+
+.box {
+  border-radius: 0px
+}
+
+.text-center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+// profile page
+// ? Profile Page
+
+.wrapper-crikey {
+  margin: 0px;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color:white;
+  justify-content: flex-start;
+}
+
+.recent-activity {
+  align-self: flex-start;
+  margin-top: 100px;
+  font-family: 'Manrope', sans-serif;
+  display: flex;
+  text-align: center;
+  
+}
+
+.createdEventprofile{
+  flex-grow: 3;
+  background-color: #a2abb3;
+  font-size: 22px;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.profile-info {
+  margin: 30px;
+  flex-grow: 1;
+}
+
+.profile-photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin: 60px;
+  // box-shadow: 1px 2px #888888;
+}
+
+.form-area2{
+  background-color: white;
+}
+
+.wrapper-crikey .box{
+  box-shadow: none
+}
+
+.profile-info h2{
+  text-transform: none;
+  font-family: 'Manrope', sans-serif;
+}
+
+.profile-info span{
+  text-transform: none;
+  color: #3273DC;
+}
+
+.recent-activity-image{
+  border-radius: 0;
+  height: 200px;
+  width: 200px;
+  margin: 60px;
+  flex-wrap: wrap;
+}
